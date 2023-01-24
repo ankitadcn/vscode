@@ -1,0 +1,16 @@
+D:\vscode\bin\Debug\net5.0\vscode.exe
+D:\vscode\bin\Debug\net5.0\vscode.deps.json
+D:\vscode\bin\Debug\net5.0\vscode.runtimeconfig.json
+D:\vscode\bin\Debug\net5.0\vscode.runtimeconfig.dev.json
+D:\vscode\bin\Debug\net5.0\vscode.dll
+D:\vscode\bin\Debug\net5.0\ref\vscode.dll
+D:\vscode\bin\Debug\net5.0\vscode.pdb
+D:\vscode\obj\Debug\net5.0\vscode.csproj.AssemblyReference.cache
+D:\vscode\obj\Debug\net5.0\vscode.GeneratedMSBuildEditorConfig.editorconfig
+D:\vscode\obj\Debug\net5.0\vscode.AssemblyInfoInputs.cache
+D:\vscode\obj\Debug\net5.0\vscode.AssemblyInfo.cs
+D:\vscode\obj\Debug\net5.0\vscode.csproj.CoreCompileInputs.cache
+D:\vscode\obj\Debug\net5.0\vscode.dll
+D:\vscode\obj\Debug\net5.0\ref\vscode.dll
+D:\vscode\obj\Debug\net5.0\vscode.pdb
+D:\vscode\obj\Debug\net5.0\vscode.genruntimeconfig.cache
