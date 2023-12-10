@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<body>
+    
+    <script>
+        // 1. hello world print
+
+        console.log('hello friends');
+        console.log('welcomeMessage');
+        console.warn("this is warning")
+        console.error("this is erreor")
+
+        // 2. JavaScript Variable
+
+        var number1 = 34;
+        var number2 = 56;
+        console.log(number1+number2);
+
+        // 3. Data Types in javascript
+        // Numbers
+        var num1 = 455;
+        var num2 = 56.76;
+        console.log(num1);
+        console.log(num2);
+
+        //String
+
+        var str1 = "This is a string"
+        var str2 = "This is also a string"
+        console.log(str1);
+        console.log(str2);
+
+        //Objects
+        var marks = {
+            ravi: 34,
+            shubham: 78,
+            harry: 99
+        }
+        console.log(marks);
+
+        //Booleans True or False
+        var a = true;
+        var b = false;
+        console.log(a,b);
+
+        //Undefined
+        var und = undefined;
+        console.log(und);
+        console.log(undefined);
+
+        //Null
+        var n = null;
+        console.log(n);
+
+        /*
+        At a very high level, there are two types of data types in javascript
+        1. Primitive data types: undefined, null, number, string, boolean, symbol
+        2. Reference data types: Arrays and Objects
+        */
+
+        //Arrays
+
+        var arr = [1,2,"ankit",4,5]
+        console.log(arr[0]);
+        console.log(arr[1]);
+        console.log(arr[2]);
+        console.log(arr[3]);
+        console.log(arr[4]);
+        console.log(arr);
+
+        //Operators in javascript
+        //Arithmetic Operators
+
+        var a = 30;
+        var b = 20;
+        console.log("the valve of a + b is", a+b);
+        console.log("the valve of a - b is", a-b);
+        console.log("the valve of a * b is", a*b);
+        console.log("the valve of a / b is", a/b);
+
+        //Assignment Operatore
+
+        var c = b;
+        console.log(c);
+
+        //Comparison Operators
+
+        var x = 34;
+        var y = 56;
+        console.log(x == y);
+        console.log(x <= y);
+        console.log(x >= y);
+        console.log(x < y);
+        console.log(x > y);
+
+        //Logical Operators
+        //Logical And
+        console.log(true && true);
+        console.log(true && false);
+        console.log(false && true);
+        console.log(false && false);
+
+        //Logical OR
+        console.log(true || true);
+        console.log(true || false);
+        console.log(false || true);
+        console.log(false || false);
+
+        //Logical Not
+        console.log(!false);
+        console.log(!true);
+
+        //FUnction in javascript
+        //DRY = Do Not Repeat Yourself
+        function avg(a, b){
+            c = (a + b)/2;
+            return c;
+        } 
+        c1 = avg(4, 6);
+        c2 = avg(14, 16);
+        console.log(c1, c2);
+
+        //Conditionals in javascript
+
+        var age = 4;
+        if(age > 2){
+            console.log('You are not a kid');
+        }
+        else{
+            console.log('You are a kid');
+        }
+
+
+    </script>
+</body>
+</html>
